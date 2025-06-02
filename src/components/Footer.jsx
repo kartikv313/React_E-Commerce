@@ -62,12 +62,12 @@ const Footer = () => {
             <div className="text-center text-md-end">
               <ul className="list-unstyled list-inline">
                 <li className="list-inline-item">
-                  <NavLink to="#" className="btn-floating btn-sm text-white">
+                  <NavLink to="/" className="btn-floating btn-sm text-white">
                     <i className="fab fa-facebook"></i>
                   </NavLink>
                 </li>
                 <li className="list-inline-item">
-                  <NavLink to="#" className="btn-floating btn-sm text-white">
+                  <NavLink to="/" className="btn-floating btn-sm text-white">
                     <i className="fab fa-twitter"></i>
                   </NavLink>
                 </li>
