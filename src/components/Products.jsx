@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 const Products = () => {
   const [data, setData] = useState([]);
@@ -45,26 +47,17 @@ const Products = () => {
   const Loading = () => {
     return (
       <>
-        <div className="col-12 py-5 text-center">
-          <Skeleton height={40} width={560} />
+        <div className="col-md-3">
+          <Skeleton height={350} />
         </div>
-        <div className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
-          <Skeleton height={592} />
+        <div className="col-md-3">
+          <Skeleton height={350} />
         </div>
-        <div className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
-          <Skeleton height={592} />
+        <div className="col-md-3">
+          <Skeleton height={350} />
         </div>
-        <div className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
-          <Skeleton height={592} />
-        </div>
-        <div className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
-          <Skeleton height={592} />
-        </div>
-        <div className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
-          <Skeleton height={592} />
-        </div>
-        <div className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
-          <Skeleton height={592} />
+        <div className="col-md-3">
+          <Skeleton height={350} />
         </div>
       </>
     );
