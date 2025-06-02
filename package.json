@@ -1,6 +1,6 @@
 {
-  "name": "ecommerce",
-  "version": "0.1.0",
+  "name": "e-commerce",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.1",
+    "e-commerce": "file:",
     "ecommerce": "file:",
     "font-awesome": "^4.7.0",
     "react": "^18.2.0",
@@ -25,8 +26,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "vercel-build": "npm run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
