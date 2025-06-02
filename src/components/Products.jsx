@@ -1,12 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { addCart } from "../redux/action";
-
-import Skeleton from "react-loading-skeleton";
-import "react-loading-skeleton/dist/skeleton.css";
-
-import { Link, NavLink } from "react-router-dom";
-import toast from "react-hot-toast";
+import { NavLink } from "react-router-dom";
 
 const Products = () => {
   const [data, setData] = useState([]);
@@ -14,12 +7,6 @@ const Products = () => {
   const [loading, setLoading] = useState(false);
   const [seasonalProducts, setSeasonalProducts] = useState([]);
   let componentMounted = true;
-
-  const dispatch = useDispatch();
-
-  const addProduct = (product) => {
-    dispatch(addCart(product));
-  };
 
   useEffect(() => {
     const getProducts = async () => {
