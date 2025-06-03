@@ -72,7 +72,12 @@ const Footer = () => {
                   </NavLink>
                 </li>
                 <li className="list-inline-item">
-                  <a href="#" className="btn-floating btn-sm text-white">
+                  <a 
+                    href="https://www.linkedin.com/in/kartikv313/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="btn-floating btn-sm text-white"
+                  >
                     <i className="fab fa-linkedin"></i>
                   </a>
                 </li>
@@ -84,6 +89,16 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+        </div>
+        <div className="text-center mt-3">
+          <small>&copy; 2025 React Shop. Developed by <a 
+            href="https://www.linkedin.com/in/kartikv313/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white text-decoration-none border-bottom"
+          >
+            Kartik V
+          </a></small>
         </div>
       </div>
     </footer>

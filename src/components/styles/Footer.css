@@ -1,0 +1,17 @@
+/* ...existing code... */
+
+.btn-floating.btn-sm {
+    transition: opacity 0.3s ease;
+}
+
+.btn-floating.btn-sm:hover {
+    opacity: 0.8;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+}
+
+.border-bottom:hover {
+    border-bottom-color: rgba(255,255,255,0.8) !important;
+}
